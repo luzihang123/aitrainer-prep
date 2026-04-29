@@ -1,0 +1,40 @@
+{
+  "name": "aitrainer-prep",
+  "version": "0.1.0",
+  "description": "AI 训练师三级备考手册｜An open-source prep guide for China's AI Trainer Level-3 certification",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "typecheck": "vue-tsc --noEmit",
+    "check": "npm run typecheck && npm run build"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://luzihang123.github.io/aitrainer-prep/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luzihang123/aitrainer-prep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luzihang123/aitrainer-prep/issues"
+  },
+  "keywords": [
+    "ai-trainer",
+    "certification-prep",
+    "exam-prep",
+    "chinese",
+    "vitepress",
+    "open-source-textbook",
+    "study-notes"
+  ]
+}

@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# dependencies
+node_modules/
+
+# VitePress
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# local-only notes and materials
+internal/
+*_INTERNAL.md
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env
+.env
+.env.*
+!.env.example
+
+# editors
+.vscode/
+.idea/

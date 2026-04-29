@@ -1,0 +1,34 @@
+/**
+ * AI 训练师备考手册 · 自定义样式
+ * 品牌主色：墨蓝 #1B3A5C，强调橙 #E8A33D
+ */
+
+:root {
+  /* 品牌色 */
+  --vp-c-brand-1: #1B3A5C;
+  --vp-c-brand-2: #2A4F75;
+  --vp-c-brand-3: #3A648E;
+  --vp-c-brand-soft: rgba(27, 58, 92, 0.14);
+
+  /* 强调色（用于"重点 / 必考"标记） */
+  --vp-c-warning-1: #E8A33D;
+  --vp-c-warning-2: #D69330;
+  --vp-c-warning-3: #C48420;
+  --vp-c-warning-soft: rgba(232, 163, 61, 0.14);
+
+  /* 首页 hero 区品牌色 */
+  --vp-home-hero-name-color: var(--vp-c-brand-1);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #1B3A5C 50%, #E8A33D 50%);
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+.dark {
+  --vp-c-brand-1: #6B95C5;
+  --vp-c-brand-2: #5C84B4;
+  --vp-c-brand-3: #4D74A3;
+}
+
+/* 难度标记 */
+.difficulty-1 { color: #E8A33D; } /* 简单 - 金色 */
+.difficulty-2 { color: #4A90E2; } /* 中等 - 蓝色 */
+.difficulty-3 { color: #D85B4D; } /* 困难 - 红色 */
