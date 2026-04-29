@@ -32,3 +32,19 @@
 .difficulty-1 { color: #E8A33D; } /* 简单 - 金色 */
 .difficulty-2 { color: #4A90E2; } /* 中等 - 蓝色 */
 .difficulty-3 { color: #D85B4D; } /* 困难 - 红色 */
+
+.mindmap-figure {
+  overflow-x: auto;
+  margin: 24px 0;
+  padding: 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg);
+}
+
+.mindmap-figure img {
+  display: block;
+  min-width: 1080px;
+  width: 100%;
+  height: auto;
+}

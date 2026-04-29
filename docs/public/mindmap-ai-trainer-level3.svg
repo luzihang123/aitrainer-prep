@@ -1,0 +1,186 @@
+<svg width="1600" height="1180" viewBox="0 0 1600 1180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">人工智能训练师三级实战考试前复习思维导图</title>
+  <desc id="desc">围绕考试结构、Python 复习要点和理论问题对策展开的思维导图。</desc>
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .root { fill: #1b3a5c; }
+      .root-text { fill: #ffffff; font: 700 24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .section-text { fill: #172033; font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .node-text { fill: #172033; font: 600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .small-text { fill: #41516a; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .code-text { fill: #273244; font: 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .muted { fill: #69758a; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .line-green { fill: none; stroke: #5fb77d; stroke-width: 3; stroke-linecap: round; }
+      .line-blue { fill: none; stroke: #5aa7d8; stroke-width: 3; stroke-linecap: round; }
+      .line-pink { fill: none; stroke: #d56aa0; stroke-width: 3; stroke-linecap: round; }
+      .line-soft { fill: none; stroke-width: 2; stroke-linecap: round; opacity: .85; }
+      .green { stroke: #5fb77d; }
+      .blue { stroke: #5aa7d8; }
+      .pink { stroke: #d56aa0; }
+      .card { fill: #ffffff; stroke-width: 1.5; filter: drop-shadow(0 4px 14px rgba(24, 39, 75, .08)); }
+      .card-green { stroke: #9bd8ae; }
+      .card-blue { stroke: #9acfed; }
+      .card-pink { stroke: #e6a3c4; }
+      .pill-green { fill: #edf8f0; stroke: #bde3c8; }
+      .pill-blue { fill: #eef7fd; stroke: #b6def2; }
+      .pill-pink { fill: #fdf0f7; stroke: #efbdd5; }
+      .score { fill: #fff7e8; stroke: #e8a33d; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="1180"/>
+
+  <rect class="root" x="40" y="510" rx="12" ry="12" width="260" height="112"/>
+  <text class="root-text" x="70" y="553">人工智能训练师三级</text>
+  <text class="root-text" x="70" y="588">实战考试前复习</text>
+
+  <path class="line-green" d="M300 540 C365 250, 430 135, 510 105"/>
+  <path class="line-blue" d="M300 565 C390 560, 430 525, 510 510"/>
+  <path class="line-pink" d="M300 590 C375 825, 430 930, 510 960"/>
+
+  <rect class="card card-green" x="510" y="62" rx="10" ry="10" width="210" height="72"/>
+  <text class="section-text" x="540" y="92">考试结构与分值</text>
+  <text class="small-text" x="540" y="116">先看分值，再决定投入顺序</text>
+
+  <path class="line-soft green" d="M720 96 C775 52, 820 44, 875 44"/>
+  <path class="line-soft green" d="M720 96 C775 82, 820 86, 875 86"/>
+  <path class="line-soft green" d="M720 96 C775 118, 820 130, 875 130"/>
+  <path class="line-soft green" d="M720 96 C775 155, 820 174, 875 174"/>
+  <path class="line-soft green" d="M720 96 C775 193, 820 218, 875 218"/>
+  <path class="line-soft green" d="M720 96 C775 236, 820 262, 875 262"/>
+
+  <rect class="pill-green" x="875" y="26" rx="8" ry="8" width="260" height="36"/>
+  <text class="node-text" x="895" y="49">第一部分：Python 与理论</text>
+  <rect class="score" x="1165" y="26" rx="8" ry="8" width="92" height="36"/>
+  <text class="small-text" x="1186" y="49">25 分</text>
+
+  <rect class="pill-green" x="875" y="68" rx="8" ry="8" width="260" height="36"/>
+  <text class="node-text" x="895" y="91">第二部分：Python</text>
+  <rect class="score" x="1165" y="68" rx="8" ry="8" width="92" height="36"/>
+  <text class="small-text" x="1186" y="91">35 分</text>
+
+  <rect class="pill-green" x="875" y="112" rx="8" ry="8" width="260" height="36"/>
+  <text class="node-text" x="895" y="135">2.1.x 数据预处理填空</text>
+  <rect class="score" x="1165" y="112" rx="8" ry="8" width="92" height="36"/>
+  <text class="small-text" x="1186" y="135">15 分</text>
+
+  <rect class="pill-green" x="875" y="156" rx="8" ry="8" width="260" height="36"/>
+  <text class="node-text" x="895" y="179">2.2.x 建模填空</text>
+  <rect class="score" x="1165" y="156" rx="8" ry="8" width="92" height="36"/>
+  <text class="small-text" x="1186" y="179">20 分</text>
+
+  <rect class="pill-green" x="875" y="200" rx="8" ry="8" width="260" height="36"/>
+  <text class="node-text" x="895" y="223">第三部分：Excel 与 Python</text>
+  <rect class="score" x="1165" y="200" rx="8" ry="8" width="92" height="36"/>
+  <text class="small-text" x="1186" y="223">35 分</text>
+
+  <rect class="pill-green" x="875" y="244" rx="8" ry="8" width="260" height="36"/>
+  <text class="node-text" x="895" y="267">第四部分：理论</text>
+  <rect class="score" x="1165" y="244" rx="8" ry="8" width="92" height="36"/>
+  <text class="small-text" x="1189" y="267">5 分</text>
+
+  <rect class="card card-blue" x="510" y="468" rx="10" ry="10" width="220" height="86"/>
+  <text class="section-text" x="540" y="500">Python 部分复习要点</text>
+  <text class="small-text" x="540" y="525">数据预处理、建模、图像识别</text>
+
+  <path class="line-soft blue" d="M730 510 C775 332, 810 300, 865 300"/>
+  <path class="line-soft blue" d="M730 510 C775 505, 810 500, 865 500"/>
+  <path class="line-soft blue" d="M730 510 C775 670, 810 730, 865 730"/>
+
+  <rect class="card card-blue" x="865" y="286" rx="10" ry="10" width="220" height="44"/>
+  <text class="node-text" x="895" y="313">数据预处理（1.x / 2.1.x）</text>
+
+  <path class="line-soft blue" d="M1085 308 C1120 245, 1160 218, 1210 218"/>
+  <path class="line-soft blue" d="M1085 308 C1120 288, 1160 285, 1210 285"/>
+  <path class="line-soft blue" d="M1085 308 C1120 348, 1160 358, 1210 358"/>
+  <path class="line-soft blue" d="M1085 308 C1120 408, 1160 430, 1210 430"/>
+
+  <rect class="pill-blue" x="1210" y="180" rx="8" ry="8" width="300" height="76"/>
+  <text class="node-text" x="1230" y="204">数据读取与理解</text>
+  <text class="code-text" x="1230" y="226">read_csv / read_excel / head</text>
+  <text class="code-text" x="1230" y="244">shape / len / info</text>
+
+  <rect class="pill-blue" x="1210" y="264" rx="8" ry="8" width="300" height="76"/>
+  <text class="node-text" x="1230" y="288">生成、转换与分组</text>
+  <text class="code-text" x="1230" y="310">np.where / pd.cut / get_dummies</text>
+  <text class="code-text" x="1230" y="328">apply / value_counts / groupby</text>
+
+  <rect class="pill-blue" x="1210" y="348" rx="8" ry="8" width="300" height="84"/>
+  <text class="node-text" x="1230" y="372">检查、清洗与筛选</text>
+  <text class="code-text" x="1230" y="394">isnull / duplicated / fillna</text>
+  <text class="code-text" x="1230" y="412">dropna / rename / isin / between</text>
+
+  <rect class="pill-blue" x="1210" y="440" rx="8" ry="8" width="300" height="84"/>
+  <text class="node-text" x="1230" y="464">类型、标准化、保存与绘图</text>
+  <text class="code-text" x="1230" y="486">astype / to_numeric / fit_transform</text>
+  <text class="code-text" x="1230" y="504">train_test_split / to_csv / plot</text>
+
+  <rect class="card card-blue" x="865" y="486" rx="10" ry="10" width="220" height="44"/>
+  <text class="node-text" x="895" y="513">建模（2.2.x）</text>
+
+  <path class="line-soft blue" d="M1085 508 C1120 555, 1160 560, 1210 560"/>
+  <path class="line-soft blue" d="M1085 508 C1120 620, 1160 640, 1210 640"/>
+  <path class="line-soft blue" d="M1085 508 C1120 690, 1160 720, 1210 720"/>
+
+  <rect class="pill-blue" x="1210" y="536" rx="8" ry="8" width="300" height="66"/>
+  <text class="node-text" x="1230" y="560">模型定义与训练</text>
+  <text class="code-text" x="1230" y="582">LogisticRegression / RandomForest</text>
+  <text class="code-text" x="1230" y="598">XGBRegressor / model.fit</text>
+
+  <rect class="pill-blue" x="1210" y="620" rx="8" ry="8" width="300" height="58"/>
+  <text class="node-text" x="1230" y="644">预测与样本平衡</text>
+  <text class="code-text" x="1230" y="666">model.predict / smote.fit_resample</text>
+
+  <rect class="pill-blue" x="1210" y="696" rx="8" ry="8" width="300" height="58"/>
+  <text class="node-text" x="1230" y="720">模型评估</text>
+  <text class="code-text" x="1230" y="742">model.score / MSE / r2_score</text>
+
+  <rect class="card card-blue" x="865" y="716" rx="10" ry="10" width="220" height="44"/>
+  <text class="node-text" x="895" y="743">图像识别（3.2.x）</text>
+
+  <path class="line-soft blue" d="M1085 738 C1120 800, 1160 815, 1210 815"/>
+  <path class="line-soft blue" d="M1085 738 C1120 875, 1160 905, 1210 905"/>
+  <path class="line-soft blue" d="M1085 738 C1120 965, 1160 995, 1210 995"/>
+
+  <rect class="pill-blue" x="1210" y="778" rx="8" ry="8" width="300" height="76"/>
+  <text class="node-text" x="1230" y="802">模型加载与图像处理</text>
+  <text class="code-text" x="1230" y="824">ort.InferenceSession / Image.open</text>
+  <text class="code-text" x="1230" y="842">cv2.imread / resize / expand_dims</text>
+
+  <rect class="pill-blue" x="1210" y="872" rx="8" ry="8" width="300" height="76"/>
+  <text class="node-text" x="1230" y="896">模型应用与输出</text>
+  <text class="code-text" x="1230" y="918">session.get_inputs / session.run</text>
+  <text class="code-text" x="1230" y="936">softmax / argsort / argmax</text>
+
+  <rect class="pill-blue" x="1210" y="966" rx="8" ry="8" width="300" height="76"/>
+  <text class="node-text" x="1230" y="990">结果处理与文件操作</text>
+  <text class="code-text" x="1230" y="1012">labels.txt / accuracy / strip</text>
+  <text class="code-text" x="1230" y="1030">makedirs / list(keys)</text>
+
+  <rect class="card card-pink" x="510" y="918" rx="10" ry="10" width="220" height="86"/>
+  <text class="section-text" x="540" y="950">理论部分复习要点</text>
+  <text class="small-text" x="540" y="975">1.2.x 问题对策模板</text>
+
+  <path class="line-soft pink" d="M730 960 C775 906, 815 880, 865 880"/>
+  <path class="line-soft pink" d="M730 960 C775 960, 815 960, 865 960"/>
+  <path class="line-soft pink" d="M730 960 C775 1015, 815 1040, 865 1040"/>
+
+  <rect class="pill-pink" x="865" y="840" rx="8" ry="8" width="280" height="80"/>
+  <text class="node-text" x="890" y="864">准确性不高</text>
+  <text class="small-text" x="890" y="888">优化数据质量：清洗、扩充、标注</text>
+  <text class="small-text" x="890" y="906">优化模型算法：升级模型、调整参数</text>
+
+  <rect class="pill-pink" x="865" y="934" rx="8" ry="8" width="280" height="80"/>
+  <text class="node-text" x="890" y="958">响应慢 / 延迟高</text>
+  <text class="small-text" x="890" y="982">优化模型算法：升级模型、调整参数</text>
+  <text class="small-text" x="890" y="1000">优化系统性能：硬件、并行、缓存</text>
+
+  <rect class="pill-pink" x="865" y="1028" rx="8" ry="8" width="280" height="80"/>
+  <text class="node-text" x="890" y="1052">缺乏个性化 / 服务单一</text>
+  <text class="small-text" x="890" y="1076">优化用户体验：界面、交互</text>
+  <text class="small-text" x="890" y="1094">增加个性化功能</text>
+
+  <text class="muted" x="40" y="1144">参考：实战考试前复习手绘思维导图；本图会随题库和考点持续迭代。</text>
+</svg>
+

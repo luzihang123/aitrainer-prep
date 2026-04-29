@@ -39,6 +39,7 @@ export default defineConfig({
     // 顶部导航
     nav: [
       { text: '首页', link: '/' },
+      { text: '图谱', link: '/graph/' },
       { text: '考试引入', link: '/intro/' },
       { text: '考点详解', link: '/modules/' },
       { text: '背诵速查', link: '/cram/' },
@@ -56,6 +57,16 @@ export default defineConfig({
 
     // 侧边栏（按路径分组）
     sidebar: {
+      '/graph/': [
+        {
+          text: '图谱',
+          items: [
+            { text: '思维导图', link: '/graph/#思维导图' },
+            { text: '知识图谱', link: '/graph/#知识图谱' },
+          ],
+        },
+      ],
+
       '/intro/': [
         {
           text: '一、考试引入',
