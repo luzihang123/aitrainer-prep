@@ -10,8 +10,8 @@ hero:
     alt: AI 训练师备考手册
   actions:
     - theme: brand
-      text: 我刚知道这考试 →
-      link: /intro/
+      text: 选择考试版本 →
+      link: /versions/
     - theme: alt
       text: 我在系统学习 →
       link: /modules/
@@ -52,6 +52,7 @@ features:
 
 ## 内容地图
 
+- **[版本切换](/versions/)** —— 上海版、深圳版，以及后续更多考点/人群版本
 - **[图谱](/graph/)** —— 思维导图总览，后续承载知识图谱
 - **[考试引入](/intro/)** —— 考试结构、分值分布、备考性价比、推荐路径
 - **[考点详解](/modules/)** —— 按真实考试结构组织的系统化讲解（含真题精讲）

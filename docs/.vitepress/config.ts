@@ -39,6 +39,14 @@ export default defineConfig({
     // 顶部导航
     nav: [
       { text: '首页', link: '/' },
+      {
+        text: '版本',
+        items: [
+          { text: '版本切换', link: '/versions/' },
+          { text: '上海版', link: '/shanghai/' },
+          { text: '深圳版', link: '/shenzhen/' },
+        ],
+      },
       { text: '图谱', link: '/graph/' },
       { text: '考试引入', link: '/intro/' },
       { text: '考点详解', link: '/modules/' },
@@ -57,6 +65,39 @@ export default defineConfig({
 
     // 侧边栏（按路径分组）
     sidebar: {
+      '/versions/': [
+        {
+          text: '版本',
+          items: [
+            { text: '版本切换', link: '/versions/' },
+            { text: '上海版', link: '/shanghai/' },
+            { text: '深圳版', link: '/shenzhen/' },
+          ],
+        },
+      ],
+
+      '/shanghai/': [
+        {
+          text: '上海版',
+          items: [
+            { text: '上海版总览', link: '/shanghai/' },
+            { text: '考试结构与分值', link: '/intro/structure' },
+            { text: '图谱', link: '/graph/' },
+          ],
+        },
+      ],
+
+      '/shenzhen/': [
+        {
+          text: '深圳版',
+          items: [
+            { text: '深圳版总览', link: '/shenzhen/' },
+            { text: '图谱', link: '/graph/' },
+            { text: '考点详解', link: '/modules/' },
+          ],
+        },
+      ],
+
       '/graph/': [
         {
           text: '图谱',
