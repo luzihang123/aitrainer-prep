@@ -57,6 +57,7 @@ export default defineConfig({
         items: [
           { text: '资源汇总', link: '/resources/' },
           { text: '关于本站', link: '/about/' },
+          { text: '为什么做这个站', link: '/about/why' },
           { text: '产品设计', link: '/about/design' },
           { text: '贡献指南', link: 'https://github.com/luzihang123/aitrainer-prep/blob/main/CONTRIBUTING.md' },
         ],
@@ -215,6 +216,7 @@ export default defineConfig({
           text: '关于',
           items: [
             { text: '关于本站', link: '/about/' },
+            { text: '为什么做这个站', link: '/about/why' },
             { text: '产品设计', link: '/about/design' },
           ],
         },
