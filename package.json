@@ -36,5 +36,8 @@
     "vitepress",
     "open-source-textbook",
     "study-notes"
-  ]
+  ],
+  "dependencies": {
+    "@giscus/vue": "^3.1.1"
+  }
 }
